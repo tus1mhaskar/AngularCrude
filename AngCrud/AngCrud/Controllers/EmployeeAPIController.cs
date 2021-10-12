@@ -84,8 +84,6 @@ namespace AngCrud.Controllers
                     employee.PinCode = ObjEmp.PinCode;
                 }
                 int i = this.ObjEnt.SaveChanges();
-
-                
             }
             catch 
             {
